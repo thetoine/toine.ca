@@ -1,0 +1,17 @@
+{
+
+	"unibroue" : {
+			"slug": "unibroue",
+			"name": "Unibroue",
+			"description": "Lorem ipsum dolor sit amet.",
+			"url": "http://www.unibroue.com"
+	},
+	
+	"6ixDegres" : {
+			"slug": "6ixDegres",
+			"name": "6ixDegres",
+			"description": "Lorem ipsum dolor sit amet.",
+			"url": "http://www.unibroue.com"
+	}
+
+}

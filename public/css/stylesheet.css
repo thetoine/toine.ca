@@ -1,0 +1,46 @@
+html {
+	background: #ddd;
+}
+
+body {
+	font-family: Helvetica, arial, sans-serif;
+	width: 1000px;
+	margin: 0 auto;
+	color: #5C5C5C;
+	font-size: 14px;	
+	text-shadow: #fff 0px 1px 0px;
+}
+
+header {
+	border-bottom: 1px groove #fff;
+	padding: 15px 0;
+}
+
+header h1 {
+	font-family: "Droid Serif", Georgia, serif;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0;
+	color: rgb(0,0,0);
+	text-shadow: none;	
+}
+
+header h2 {
+	font-family: "Droid Serif", Georgia, serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+}
+
+section#content {
+	min-height: 400px;
+}
+
+footer {
+	border-top: 1px groove #fff;	
+	padding: 15px 0;
+}
+
+a, a:visited {
+	color: #000;
+}

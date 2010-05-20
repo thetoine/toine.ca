@@ -1,0 +1,10 @@
+<%= @html %>
+
+<ul>
+<% @projects.each do |project| %>
+	<li>
+	  <h3><a href="<%= project[1]['url'] %>"><%= project[1]['name'] %></a></h3>
+	  <p><%= project[1]['description'] %></p>
+	</li>
+<% end %>
+</ul>
