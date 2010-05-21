@@ -1,17 +1,87 @@
 {
 
 	"unibroue" : {
-			"slug": "unibroue",
-			"name": "Unibroue",
-			"description": "Lorem ipsum dolor sit amet.",
-			"url": "http://www.unibroue.com"
+		"slug": "unibroue",
+		"name": "Unibroue",
+		"client": "TOXA",
+		"url": "http://www.unibroue.com"
 	},
 	
 	"6ixDegres" : {
-			"slug": "6ixDegres",
-			"name": "6ixDegres",
-			"description": "Lorem ipsum dolor sit amet.",
-			"url": "http://www.unibroue.com"
+		"slug": "6ixDegres",
+		"name": "6ixDegres",
+		"client": "iXmédia",		
+		"url": "http://www.unibroue.com"
+	},
+	
+	"brulerie" : {
+		"slug": "brulerie",
+		"name": "Brûlerie des Cantons",
+		"client": "",		
+		"url": "http://www.bruleriedescantons.com"
+	},
+	
+	"ecodrain" : {
+		"slug": "ecodrain",
+		"name": "Ecodrain",
+		"client": "",		
+		"url": "http://www.ecodrain.com"
+	},
+	
+	"marade" : {
+		"slug": "marade",
+		"name": "Camarade",
+		"client": "",		
+		"url": "http://ca.marade.ca"
+	},
+	
+	"ecodrain" : {
+		"slug": "ecodrain",
+		"name": "EcoDrain",
+		"client": "",		
+		"url": "http://www.ecodrain.com"
+	},
+	
+	"urbanizer" : {
+		"slug": "urbanizer",
+		"name": "Urbanizer",
+		"client": "Yellow Page Group / WhereCloud",		
+		"url": "http://www.urbanizer.com"
+	},
+	
+	"dhcart" : {
+		"slug": "dhc-art",
+		"name": "DHC/ART",
+		"client": "Phi Montreal",		
+		"url": "http://www.dhc-art.org"
+	},
+	
+	"phi" : {
+		"slug": "phi",
+		"name": "Phi Montreal",
+		"client": "",		
+		"url": "http://www.phi-montreal.com"
+	},
+	
+	"dm" : {
+		"slug": "dm",
+		"name": "Danse Macabre",
+		"client": "Phi Montreal",		
+		"url": "http://www.dansemacabre-film.com"
+	},
+	
+	"massif" : {
+		"slug": "massif",
+		"name": "Le Massif",
+		"client": "CloudRaker",		
+		"url": "http://www.lemassif.com"
+	},
+	
+	"kolgen" : {
+		"slug": "kolgen",
+		"name": "KOLGEN",
+		"client": "",		
+		"url": "http://www.kolgen.net"
 	}
 
 }

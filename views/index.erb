@@ -1,10 +1,10 @@
-<%= @html %>
+<h3>Réalisations &amp; Collaboration</h3>
 
 <ul>
 <% @projects.each do |project| %>
 	<li>
-	  <h3><a href="<%= project[1]['url'] %>"><%= project[1]['name'] %></a></h3>
-	  <p><%= project[1]['description'] %></p>
+	  <h4><a href="<%= project[1]['url'] %>"><%= project[1]['name'] %></a></h4>
+	  <%= "<p class='client'><strong>Client:</strong> #{project[1]['client']}</p>" if !project[1]['client'].empty?  %>
 	</li>
 <% end %>
 </ul>

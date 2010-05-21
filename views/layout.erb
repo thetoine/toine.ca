@@ -5,7 +5,7 @@
 
 	<title><%= @title %></title>
 	<link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="/css/stylesheet.css" type="text/css" media="screen" title="no title" charset="utf-8" />		
+	<link rel="stylesheet" href="/css/stylesheet.css" type="text/css" media="screen" title="no title" />		
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css' />	
 	
 </head>
@@ -17,12 +17,13 @@
 		<h2>Antoine Girard, développeur web</h2>
 	</header>
 
-	<section id="content" role="content">
+	<section id="content">
 		<%= yield %>
 	</section>
 
 	<footer>
-		footer
+		<p><a href="mailto:an@toine.ca">an@toine.ca</a></p>
+		<p><strong><em>thetoine</em></strong> @ <a href="http://www.twitter.com/twitter">Twitter</a>, <a href="http://github.com/thetoine/">GitHub</a>, <a href="http://www.last.fm/user/krushcutz">Last.fm</a> &amp; <a href="http://thetoine.net/">Tumblr</a>.</p>		
 	</footer>
 
 </body>
