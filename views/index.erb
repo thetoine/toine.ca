@@ -1,10 +1,12 @@
-<h3>Réalisations &amp; Collaboration</h3>
+<h3>Réalisations</h3>
 
 <ul>
 <% @projects.each do |project| %>
 	<li>
-	  <h4><a href="<%= project[1]['url'] %>"><%= project[1]['name'] %></a></h4>
-	  <%= "<p class='client'><strong>Client:</strong> #{project[1]['client']}</p>" if !project[1]['client'].empty?  %>
+	  <h4><a href="<%= project.url %>"><%= project.name %></a></h4>
+	  <p><strong>Plateforme</strong> <%= project.platform %></p>
+	  <p><strong>Date</strong> <%= project.date %></p>	  
+	  <%= "<p class='client'><strong>Client</strong> #{project.client}</p>" if !project.client.empty?  %>
 	</li>
 <% end %>
 </ul>
