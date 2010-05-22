@@ -28,11 +28,11 @@ p {
 }
 
 h1 {
+	font-family: "Droid Serif", Georgia, serif;	
 	font-size: 40px;
 	line-height: 48px;
 	font-weight: normal;
 	margin: 0;
-	font-family: "Droid Serif", Georgia, serif;
 	color: #000;
 	text-shadow: none;	
 }
@@ -45,7 +45,6 @@ h2 {
 }
 
 h3 {
-/*	font-family: "Droid Serif", Georgia, serif;*/
 	margin: 15px 0;
 	font-size: 18px;
 }
@@ -55,8 +54,8 @@ h4 {
 	text-transform: uppercase;
 }
 
-/* header */
 
+/* header */
 header {
 	padding: 15px 0;
 	display: block;
