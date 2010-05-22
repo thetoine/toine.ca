@@ -2,11 +2,9 @@
 require 'rubygems'
 require 'sinatra'
  
-Sinatra::Application.default_options.merge!(
-  :run => false,
-  :env => ENV['RACK_ENV']
-)
+set :env,  :production
+disable :run
 
 require 'portfolio'
 
-run Sinatra.application
+run Sinatra::Application

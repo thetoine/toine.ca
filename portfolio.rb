@@ -12,12 +12,6 @@ get '/' do
   erb :index
 end
 
-# project page                                  
-get '/projects/:slug' do
-  @title = "#{params[:slug]}"
-  erb :project
-end
-
 helpers do
             
   def get_projects
@@ -26,13 +20,13 @@ helpers do
 		# prepare array for project
 		projects = []		
 		
-		# create a Project instance for each project
-    JSON.parse(data).each do |project|			
-		 	projects << Project.new(project)
+		# create a Project class instance for each item
+    JSON.parse(data).each do |p|			
+		 	projects << Project.new(p)
 		end
 		
-		# resort by name		
-		return projects.sort_by { |project| [project.date, project.name] }.reverse
+		# resort by date		
+		return projects.sort_by { |project| [project.date] }.reverse
   end
 
 	class Project

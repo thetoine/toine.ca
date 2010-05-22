@@ -85,7 +85,7 @@ header {
 			margin: 0 0 15px 0;
 			padding: 15px 0 0 0;
 			width: 290px;
-			height: 60px;
+			height: 65px;
 			float: left;
 			border-top: 1px solid #9e9e9e;
 		}
@@ -93,6 +93,7 @@ header {
 		#content ul li:hover {
 		}
 		
+		#content ul li.even,
 		#content ul li:nth-child(2n) {
 			margin-left: 20px;
 		}
@@ -123,3 +124,6 @@ footer {
 	padding: 10px 0 40px 0;
 }
 
+footer p.colophon {
+	margin-top: 15px;
+}
